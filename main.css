@@ -1,0 +1,75 @@
+body {
+    background-image: url('bg.gif');
+    background-size: cover   ;
+
+    background-color: rgb(171,219,227,0.3);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 0 10px;
+    height: 7%;
+    background-color: #eee;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    
+}
+
+input, button {
+    margin-top: 5px;
+}
+
+input:hover {
+    box-shadow: 0 5px 15px rgb(0,0,0,0.3);
+}
+
+button {
+    background-color: #28A745;
+    color: white;
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    border-color: yellow;
+}
+
+button:hover {
+    background-color: #218838;
+    box-shadow: 0 5px 15px rgb(0,0,0,0.5);
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #DC3545;
+    size: 200px;
+    font-size: 20px;
+}
+
+div{
+  background-color: rgb(171,219,227,0.8);
+  background: linear-gradient(to right, rgb(255,255,255,0.8), rgb(171,219,227,0.8) );
+  padding: 0px ;
+  border-radius: 10px;
+ 
+  border-color: black;
+  height: 370px;
+  width: 500px;
+  box-shadow: 0 5px 15px rgb(0,0,0,0.5);
+}
+

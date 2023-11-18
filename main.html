@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- กำหนดการแสดงผลบนอุปกรณ์ที่มีหน้าจอขนาดต่างๆ เช่น มือถือ, แท็บเล็ต, และคอมพิวเตอร์. -->
+    <link rel="stylesheet" href="main.css">                         <!-- Link File css -->
+    <script src="main.js"></script>                                 <!-- Link File Java Script -->
+    <link rel="icon" href="iconsiam.png" type="image/png"> <!-- Icon Siam -->
+    <title>เว็บบวกเลข</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">    
+
+</head>
+<body>
+<div>
+    <h1>เครื่องคิดเลข</h1>                      <!-- Head Text -->
+
+    <label for="num1">ตัวเลขที่ 1:</label>                                                 <!-- Label Text -->
+    <input type="number" id="num1" placeholder="ใส่ตัวเลขที่ 1" > <!-- Input Number type -->
+
+    <label for="num2">ตัวเลขที่ 2:</label>                                                 <!-- Label Text -->
+    <input type="number" id="num2" placeholder="ใส่ตัวเลขที่2" >  <!-- Input Number type -->
+    
+    <br>
+    <button onclick="addNumbers()">บวก</button>             <!-- Button บวก -->
+    <br>
+    <button onclick="resetValues()">reset</button>           <!-- Button Reset -->
+    <p>คำตอบคือ</p>                                           <!-- Text -->
+    <p id="result"></p>               <!-- คำตอบ -->
+
+</div>
+
+
+
+</body>
+</html>
